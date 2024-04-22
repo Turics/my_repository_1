@@ -1,0 +1,93 @@
+Body{
+  Margin:0px;
+    Color:rgb(251, 250, 250);
+    Background: rgb(3, 3, 3);
+} 
+
+/* header{
+    Background:#472a7ec9;
+    Height:100px;
+    Padding:0;
+    Display:absolute;
+    Border-bottom:1px solid white ;
+}
+
+header img{
+
+    Width:100px;
+    Height:100px;
+    Object-fit:cover;
+    Float:left;
+} */
+
+main{
+  border-radius: 8%;
+    border: 4px solid white;
+    padding: 20px;
+    Margin:60px;
+    Font-family:baskerville;
+    Box-shadow: 0px 0px 5px 3px white;
+}
+
+Main .primera_card{
+    Width:300px;
+    Height:400px;
+    Margin:0 auto;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    Text-align:center;
+    Border:3px solid white;
+    Border-radius:5px;
+    Background:white;
+    Color:black;
+    Transition:transform 1s;
+    Box-shadow: 0px 0px 5px 2px #b3a7a7;
+}
+
+Main .primera_card img{
+    Width:300px;
+    Height:300px;
+    Background: black;
+    border-radius: 5px;
+}
+
+Main h4{
+    Text-align:center;
+}
+
+Main h2{
+  margin-top: 30px;
+    Text-align:center;
+}
+
+Main p{
+    Font-size:16px;
+    
+}
+
+Main .primera_card:hover{
+  Transform: translateY(-5px) translateX(-5px);
+}
+
+
+@media(min-width:600px){
+  
+  H4{
+    font-size:18px;
+  }
+  
+  Main  .h2{
+    Text-decoration: none;
+  }
+  
+  
+  Main p{
+    font-size: 20px;
+  }
+  
+  Main .primera_card{
+    Float:right;
+    Margin:15px;
+  }
+}

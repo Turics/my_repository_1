@@ -1,0 +1,66 @@
+Body{
+  Background:#101111;
+  Color:white ;
+   Margin:0;   
+  justify-content: border-box;
+}
+
+Main{
+  Margin:15px;
+}
+
+Main h2{
+  text-align: center;
+  Border-radius:15px;
+  Background:#123640;
+  Box-shadow:0px 0px 8px 3px #123640;
+}
+
+Main .content img{
+ margin: 10px;
+ border-radius: 15px;
+ width: 150px;
+ Float:left;
+ Box-shadow:0px -2px 5px 9px #123640;
+} 
+
+Main .content_dos img{
+  Display:block;
+  margin:0 auto;
+  Width:300px;
+}
+
+@media(min-width:600px){
+  
+  Main{
+    Margin:25px; 
+    font-size: 18px;
+  }
+  
+  Main .content{
+    Border:1px solid white ;
+    Border-radius:15px;
+    Height:350px;
+  }
+  
+  Main .content p{
+    Margin-top: 70px;
+    Font-size:20px;
+  }
+  
+  
+  Main .content img{
+    Width:250px;
+    Margin:0 auto ;
+    
+  }
+  
+  
+  
+  #unico{
+    Float:left;
+    Margin:30px;
+    Width: 250px;
+  }
+  
+}
